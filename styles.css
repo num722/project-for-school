@@ -1,0 +1,75 @@
+h1{
+    color:white;
+    font-size: 250px;
+    text-align: left;
+    text-indent:50px;;
+}
+
+body{
+    background:black;
+    height:6000px;
+    font-family:'nanumsquare';
+
+}
+
+div{
+    margin-top: 500px;
+    color:white;
+    text-align: center;
+    opacity:0;
+    transition: all 0.5s;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.m1{
+    animation-name:move;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+  }
+
+  @keyframes move {
+    0% {letter-spacing:-1px; }
+    10% { letter-spacing: 10px; }
+    100%{letter-spacing:50px;}
+
+  }
+
+  .m2{
+    animation-name: fadeout;
+    animation-duration: 3s;
+    animation-fill-mode:forwards;
+
+  }
+  @keyframes fadeout{
+    0% {opacity:0;}
+    10% {opacity:0.5;  }
+    100%{opacity:1;}
+  }
+
+  .nanum-brush-script-regular {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.a{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+  color:white;
+}
+
+
+
+
+
+
+  

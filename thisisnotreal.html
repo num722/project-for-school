@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <meta charse="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Tiny5&display=swap" rel="stylesheet">
+
+
+</head>
+    <body>
+        <div class="tiny5-regular">
+            <h1 class="m1">who is <br> Alan Turing</h1>
+            <h2 class="m2"> <P class="nanum-brush-script-regular" style="font-size:200%">"때로는, 아무것도 아니라고 생각했던 사람이 아무도 생각할 수 없는 일을 해낸다"</P></h2>
+         </div>
+         
+     <center>
+            <img src="C:\Users\klg11\OneDrive\바탕 화면\html-20240913T042039Z-001\html\앨런튜링.jpg">
+        </center>
+
+    <div class="m">   
+      <p>
+        앨런튜링은 컴퓨터의 아버지이자, <br>제2차 세계대전에서 가장 높은 암호 수준을 자랑했던 <br> 독일군의 애니그마를 해독하여 많은 사람의 목숨을 살린 인물입니다.
+      </p>
+    </div>   
+        
+        
+
+        <script>
+           let observer = new IntersectionObserver((e)=>{
+e.forEach((박스)=>{
+    if(박스.isIntersecting){
+        박스.target.style.opacity=1;
+        박스.target.style.transform='rotate(0deg)';
+    }
+})
+
+           })
+           
+           
+           let div=document.querySelectorAll('div')
+           observer.observe(div[0])
+           observer.observe(div[1])
+           observer.observe(div[2])
+           observer.observe(div[3])
+
+        
+        </script>
+        
+        
+          
+              
+
+
+       
+       
+
+    </body>
+</html>
+
